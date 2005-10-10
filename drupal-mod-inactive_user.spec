@@ -36,6 +36,8 @@ users that have exceeded configurable periods of inactivity:
 
 All events triggered by this module are logged via the watchdog.
 
+This module is no longer maintained. It needs a new maintainer.
+
 %prep
 %setup -q -n %{modname}
 rm -f LICENSE.txt # GPL v2
