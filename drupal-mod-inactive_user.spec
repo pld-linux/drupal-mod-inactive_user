@@ -1,6 +1,6 @@
 %define		modname inactive_user
 Summary:	Drupal Inactive User Module
-Summary(pl.UTF-8):   Moduł Inactive User dla Drupala
+Summary(pl.UTF-8):	Moduł Inactive User dla Drupala
 Name:		drupal-mod-%{modname}
 Version:	0.1.cvs
 Release:	0.2
