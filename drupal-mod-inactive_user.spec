@@ -1,6 +1,6 @@
 %define		modname inactive_user
 Summary:	Drupal Inactive User Module
-Summary(pl):	Modu³ Inactive User dla Drupala
+Summary(pl.UTF-8):   ModuÅ‚ Inactive User dla Drupala
 Name:		drupal-mod-%{modname}
 Version:	0.1.cvs
 Release:	0.2
@@ -39,30 +39,30 @@ All events triggered by this module are logged via the watchdog.
 
 This module is no longer maintained. It needs a new maintainer.
 
-%description -l pl
-Modu³ inactive_user wyposa¿a administratorów Drupala w automatyczny
-sposób zarz±dzania kontami nieaktywnych u¿ytkowników. Modu³ ten ma dwa
-zadania: pomóc u¿ytkownikom w powracaniu na stronê poprzez
-przypominanie im, ¿e nie byli na niej w ci±gu konfigurowalnego okresu
-czasu, oraz czy¶ciæ nieu¿ywane konta.
+%description -l pl.UTF-8
+ModuÅ‚ inactive_user wyposaÅ¼a administratorÃ³w Drupala w automatyczny
+sposÃ³b zarzÄ…dzania kontami nieaktywnych uÅ¼ytkownikÃ³w. ModuÅ‚ ten ma dwa
+zadania: pomÃ³c uÅ¼ytkownikom w powracaniu na stronÄ™ poprzez
+przypominanie im, Å¼e nie byli na niej w ciÄ…gu konfigurowalnego okresu
+czasu, oraz czyÅ›ciÄ‡ nieuÅ¼ywane konta.
 
-Jedna lub wiêcej z nastêpuj±cych akcji mo¿e byæ podjêta dla
-u¿ytkowników, którzy przekroczyli konfigurowalny okres nieaktywno¶ci:
-- wys³anie listu do u¿ytkownika
-- wys³anie listu do administratora serwisu
-- zablokowanie konta (najpierw wysy³ane jest ostrze¿enie, a
-  powiadomienie mo¿e byæ wys³ane do u¿ytkownika i/lub administratora
-  serwisu kiedy nast±pi zablokowanie)
-- usuniêcie konta (najpierw wysy³ane jest ostrze¿enie, a
-  powiadomienie mo¿e byæ wys³ane do u¿ytkownika i/lub administratora
-  serwisu kiedy nast±pi usuniêcie)
-- opcjonalnie mo¿na zablokowaæ usuwanie u¿ytkowników, którzy
-  stworzyli jak±¶ tre¶æ na stronie.
+Jedna lub wiÄ™cej z nastÄ™pujÄ…cych akcji moÅ¼e byÄ‡ podjÄ™ta dla
+uÅ¼ytkownikÃ³w, ktÃ³rzy przekroczyli konfigurowalny okres nieaktywnoÅ›ci:
+- wysÅ‚anie listu do uÅ¼ytkownika
+- wysÅ‚anie listu do administratora serwisu
+- zablokowanie konta (najpierw wysyÅ‚ane jest ostrzeÅ¼enie, a
+  powiadomienie moÅ¼e byÄ‡ wysÅ‚ane do uÅ¼ytkownika i/lub administratora
+  serwisu kiedy nastÄ…pi zablokowanie)
+- usuniÄ™cie konta (najpierw wysyÅ‚ane jest ostrzeÅ¼enie, a
+  powiadomienie moÅ¼e byÄ‡ wysÅ‚ane do uÅ¼ytkownika i/lub administratora
+  serwisu kiedy nastÄ…pi usuniÄ™cie)
+- opcjonalnie moÅ¼na zablokowaÄ‡ usuwanie uÅ¼ytkownikÃ³w, ktÃ³rzy
+  stworzyli jakÄ…Å› treÅ›Ä‡ na stronie.
 
-Wszystkie zdarzenia wyzwalane przez ten modu³ s± logowane poprzez
+Wszystkie zdarzenia wyzwalane przez ten moduÅ‚ sÄ… logowane poprzez
 watchdoga.
 
-Ten modu³ nie jest ju¿ utrzymywany. Wymaga nowego maintainera.
+Ten moduÅ‚ nie jest juÅ¼ utrzymywany. Wymaga nowego maintainera.
 
 %prep
 %setup -q -n %{modname}
